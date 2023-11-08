@@ -1,0 +1,70 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#logo {
+    font-weight: 1000;
+    font-size: 2rem;
+    border: 2px solid black; 
+    display: inline;
+    padding: 10px;
+}
+
+ul {
+display: flex;
+list-style: none;
+padding-left: 0;
+}
+
+li {
+    margin-left: 3rem;
+}
+
+a {
+    color: black;
+}
+
+/* MAIN */
+
+.main-img{
+    width: 30%;
+}
+
+/* CATEGORY SECTION */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-image {
+    width: 100%;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+figure {
+    margin-left: 0%;
+}
+
+.category-image {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 5rem;
+    border-top: 1px solid black;
+}
