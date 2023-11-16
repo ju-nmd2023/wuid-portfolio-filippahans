@@ -1,113 +1,109 @@
 * {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* HEADER */
 header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
-
 
 #logo {
-    font-weight: 1000;
-    font-size: 2rem;
-    border: 2px solid black; 
-    display: inline;
-    padding: 10px;
+  font-weight: 1000;
+  font-size: 2rem;
+  border: 2px solid black;
+  display: inline;
+  padding: 10px;
 }
 
-
-
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-display: flex;
-list-style: none;
-padding-left: 0;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
 }
 
 li {
-    margin-left: 3rem;
+  margin-left: 3rem;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 /* MAIN */
 
-.main-img{
-    width: 30%;
+.main-img {
+  width: 30%;
 }
 
 /* FORM */
 
 form {
-    margin: 10rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
+  margin: 10rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
 .input-container {
-display: flex;
-flex-direction: column;
-row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
-.input-container label { font-size: 1rem; }
+.input-container label {
+  font-size: 1rem;
+}
 
-.input-container input, 
+.input-container input,
 textarea {
-    padding: 1rem;
-    border-radius: 5px;
-    border: 1px solid black;
-    resize: none;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  resize: none;
 }
 
 button {
-    align-self: flex-start;
-    padding: 1rem;
-    border-radius: 5px;
-    border: none;
-    background: salmon;
-    color: black;
-    cursor: pointer;
+  align-self: flex-start;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background: salmon;
+  color: black;
+  cursor: pointer;
 }
-
 
 /* CATEGORY SECTION */
 
-
 .contact-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .contact-image {
-    width: 100%;
+  width: 100%;
 }
 
 .category-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 figure {
-    margin-left: 0%;
+  margin-left: 0%;
 }
 
 .category-image {
-    width: 100%;
+  width: 100%;
 }
 
 /* FOOTER */
 
 footer {
-    margin-top: 5rem;
-    border-top: 1px solid black;
+  margin-top: 5rem;
+  border-top: 1px solid black;
 }
